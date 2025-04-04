@@ -15,28 +15,28 @@ const IconPointer = () => {
         cy="5.92437"
         r="5.92437"
         fill="#CBEC5E"
-        fill-opacity="0.42"
+        fillOpacity="0.42"
       />
       <circle
         cx="46.9947"
         cy="5.92437"
         r="5.92437"
         fill="#CBEC5E"
-        fill-opacity="0.42"
+        fillOpacity="0.42"
       />
       <circle
         cx="67.5416"
         cy="5.92437"
         r="5.92437"
         fill="#CBEC5E"
-        fill-opacity="0.42"
+        fillOpacity="0.42"
       />
       <circle
         cx="88.0806"
         cy="5.92437"
         r="5.92437"
         fill="#CBEC5E"
-        fill-opacity="0.42"
+        fillOpacity="0.42"
       />
     </svg>
   );
