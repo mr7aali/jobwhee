@@ -13,12 +13,12 @@ const PerfectMatch = () => {
     "Increased Visibility and Opportunities",
   ];
   return (
-    <div className="my-10">
+    <div className="mt-[120px]">
       <SectionTitle title="FIND THE PERFECT MATCH IN SECONDS" />
 
-      <div className="grid grid-cols-2 ">
+      <div className="grid grid-cols-2 mt-[70px]">
         <div>
-          <h2 className="text-[#18470D] font-medium text-[50px]">
+          <h2 className="text-[#18470D] font-medium text-[50px] ">
             Whether you’re a talent <br /> or a client, start your <br />{" "}
             journey now.
           </h2>
@@ -28,7 +28,7 @@ const PerfectMatch = () => {
           </span>
           {/* input container */}
           <div className="w-full mt-5">
-            <div className="max-w-[555px]  bg-white flex rounded-full p-1 items-center ">
+            <div className="max-w-[555px] shadow-blue-100 shadow-xl bg-white flex rounded-full p-1 items-center ">
               <div>
                 <IconSearch />
               </div>
@@ -40,10 +40,7 @@ const PerfectMatch = () => {
                   placeholder="Find a job, talent or service"
                 />
               </div>
-              <div
-                // style={{ border: "1px solid #cdcdcd" }}
-                className="flex items-center gap-2 text-[#737373] font-medium rounded-full px-6 py-3.5 cursor-pointer "
-              >
+              <div className="flex items-center gap-2 text-[#737373] font-medium rounded-full px-6 py-3.5 cursor-pointer ">
                 <span>Talent</span>
                 <span>
                   <IconDerectionUp />
@@ -52,7 +49,7 @@ const PerfectMatch = () => {
             </div>
           </div>
           {/* button container */}
-          <div className="mt-5 flex gap-3">
+          <div className="mt-9 flex gap-3">
             <FilledButtion
               key={3}
               text="Sign Up"

@@ -6,11 +6,11 @@ import IconDerection from "@/svg-icons/IconDerection";
 const NavBar = () => {
   const menus: string[] = ["Post a Job", "Explore Jobs", "How It Works"];
   return (
-    <div className="flex justify-between items-center max-w-[1440px] mx-auto bg-black py-3.5 px-3.5 rounded-full my-4">
+    <div className="flex justify-between items-center max-w-[1440px] mx-auto bg-black py-3.5 px-3.5 rounded-full mt-6 mb-4">
       <div className="ml-6">
         <IconJobwhee />
       </div>
-      <div className="flex text-white text-[16px] font-medium gap-8">
+      <div className="flex text-white text-[16px] font-semibold gap-8">
         {menus.map((Item, index) => (
           <span key={index}>{Item}</span>
         ))}

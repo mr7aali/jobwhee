@@ -11,7 +11,7 @@ const FilledButtion = ({
 }) => {
   return (
     <div
-      className={`bg-${bg}  text-${textColor} rounded-full inline-block font-medium text-[14px] px-8 py-3 cursor-pointer`}
+      className={`bg-${bg} text-${textColor} rounded-full inline-block font-medium text-[14px] px-8 py-[14px] cursor-pointer`}
     >
       <span>{text}</span>
     </div>
