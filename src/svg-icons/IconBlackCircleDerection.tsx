@@ -14,9 +14,9 @@ const IconBlackCircleDerection = () => {
       <path
         d="M28.8022 24.5566L28.8022 18.8997M28.8022 18.8997L23.1248 18.8792M28.8022 18.8997L19.6098 28.0921"
         stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

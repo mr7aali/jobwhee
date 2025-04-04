@@ -13,9 +13,9 @@ const IconCardBtn = () => {
       <path
         d="M28.8021 24.5566L28.8021 18.8997M28.8021 18.8997L23.1247 18.8792M28.8021 18.8997L19.6097 28.0921"
         stroke="#18470D"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
