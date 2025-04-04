@@ -10,7 +10,7 @@ const SectionTitle = ({ title }: { title: string }) => {
             {title}
           </h1>
         </div>
-        <div className=" h-[5px] w-2/4 rounded-[3px] bg-[#C0D724] bottom-0-0 right-0 absolute"></div>
+        <div className=" h-[5px] w-[39%] rounded-[3px] bg-[#C0D724] bottom-0-0 right-0 absolute"></div>
       </div>
     </div>
   );

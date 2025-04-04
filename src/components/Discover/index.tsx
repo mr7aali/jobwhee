@@ -2,7 +2,7 @@ import React from "react";
 import SectionTitle from "../ui/SectionTitle";
 import Card from "./Card";
 import { dicoverMenuData } from "./data";
-import DirectionButtionContainer from "../ui/DirectionButtionContainer";
+import DirectionButtionContainer from "../ui/button/DirectionButtionContainer";
 
 const Discover = () => {
   return (

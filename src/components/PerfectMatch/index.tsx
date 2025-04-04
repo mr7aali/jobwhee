@@ -2,7 +2,7 @@ import React from "react";
 import SectionTitle from "../ui/SectionTitle";
 import IconDerectionUp from "@/svg-icons/IconDerectionUp";
 import IconSearch from "@/svg-icons/IconSearch";
-import FilledButtion from "../ui/FilledButtion";
+import FilledButtion from "../ui/button/FilledButtion";
 
 import IconGropImages from "@/svg-icons/IconGropImages";
 import IconOk from "@/svg-icons/IconOk";
