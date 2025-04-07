@@ -1,9 +1,16 @@
 import React from "react";
-import SectionTitle from "../ui/SectionTitle";
-import TalentClientButtion from "../ui/button/TalentClientButtion";
-import gropImage from "./../../../public/images/group_photo.png";
 import Image from "next/image";
-import IconBlackCircleDerection from "@/svg-icons/IconBlackCircleDerection";
+import gropImage from "./../../../public/images/group_photo.png";
+import dynamic from "next/dynamic";
+
+const SectionTitle = dynamic(() => import("../ui/SectionTitle"));
+const TalentClientButtion = dynamic(
+  () => import("../ui/button/TalentClientButtion")
+);
+const IconBlackCircleDerection = dynamic(
+  () => import("@/svg-icons/IconBlackCircleDerection")
+);
+
 const Platform = () => {
   return (
     <div>

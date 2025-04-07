@@ -1,8 +1,13 @@
 import React from "react";
-import SectionTitle from "../ui/SectionTitle";
-import Card from "./Card";
 import { dicoverMenuData } from "./data";
-import DirectionButtionContainer from "../ui/button/DirectionButtionContainer";
+import SectionTitle from "../ui/SectionTitle";
+import dynamic from "next/dynamic";
+
+// Dynamic imports for components
+const Card = dynamic(() => import("./Card"));
+const DirectionButtionContainer = dynamic(
+  () => import("../ui/button/DirectionButtionContainer")
+);
 
 const Discover = () => {
   return (

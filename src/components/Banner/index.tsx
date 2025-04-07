@@ -1,9 +1,14 @@
 import Image from "next/image";
 import bannerImage from "./../../../public/BannerImage.png";
-import SignUpAndPlayBtnContainer from "./SignUpAndPlayBtnContainer";
-import InputFieldContainer from "./InputFieldContainer";
-import IconFindTelent from "@/svg-icons/IconFindTelent";
-import IconLeftBackdrop from "@/svg-icons/IconLeftBackdrop";
+
+import dynamic from "next/dynamic";
+
+const SignUpAndPlayBtnContainer = dynamic(
+  () => import("./SignUpAndPlayBtnContainer")
+);
+const InputFieldContainer = dynamic(() => import("./InputFieldContainer"));
+const IconFindTelent = dynamic(() => import("@/svg-icons/IconFindTelent"));
+const IconLeftBackdrop = dynamic(() => import("@/svg-icons/IconLeftBackdrop"));
 const Banner = () => {
   return (
     <div style={{ position: "relative" }}>

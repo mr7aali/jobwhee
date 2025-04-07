@@ -1,6 +1,10 @@
 import Image from "next/image";
-import FilledButtion from "../ui/button/FilledButtion";
-import SectionTitle from "../ui/SectionTitle";
+
+import dynamic from "next/dynamic";
+
+// Dynamic imports for components
+const FilledButtion = dynamic(() => import("../ui/button/FilledButtion"));
+const SectionTitle = dynamic(() => import("../ui/SectionTitle"));
 import imageSrc from "./../../../public/images/inActionImage.png";
 const InAction = () => {
   return (

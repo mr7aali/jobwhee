@@ -1,11 +1,15 @@
 import React from "react";
-import SectionTitle from "../ui/SectionTitle";
-import IconDerectionUp from "@/svg-icons/IconDerectionUp";
-import IconSearch from "@/svg-icons/IconSearch";
-import FilledButtion from "../ui/button/FilledButtion";
+import dynamic from "next/dynamic";
 
-import IconGropImages from "@/svg-icons/IconGropImages";
-import IconOk from "@/svg-icons/IconOk";
+// Dynamic imports for UI components
+const SectionTitle = dynamic(() => import("../ui/SectionTitle"));
+const FilledButtion = dynamic(() => import("../ui/button/FilledButtion"));
+
+// Dynamic imports for SVG icon components
+const IconDerectionUp = dynamic(() => import("@/svg-icons/IconDerectionUp"));
+const IconSearch = dynamic(() => import("@/svg-icons/IconSearch"));
+const IconGropImages = dynamic(() => import("@/svg-icons/IconGropImages"));
+const IconOk = dynamic(() => import("@/svg-icons/IconOk"));
 const PerfectMatch = () => {
   const tips: string[] = [
     "Faster and More Relevant Matches",
