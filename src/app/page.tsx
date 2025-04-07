@@ -1,3 +1,4 @@
+"use client";
 import Banner from "@/components/Banner";
 import Discover from "@/components/Discover";
 // import InAction from "@/components/InAction";
